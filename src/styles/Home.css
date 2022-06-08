@@ -1,0 +1,76 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerContainer {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20em;
+}
+
+
+.headerContainer button {
+  color: white;
+  border: solid 1px;
+  border-radius: 2em;
+  padding: 1em;
+  cursor: pointer;
+  justify-content: center;
+  background-color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+
+.headerContainer button:hover {
+  background-color: darkgray;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+/* full size screens*/
+@media only screen and (min-width: 1024px) {
+  .home{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerContainer {
+    margin-left: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: wheat;
+    color: darksalmon;
+  }
+
+  .headerContainer button {
+    background-color: black;
+    color: whitesmoke;
+    margin-bottom: 30px;
+  }
+
+  .headerContainer button:hover {
+    background-color: rgb(149, 94, 76);
+    color: darksalmon;
+  }
+}
+
