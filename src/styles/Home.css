@@ -1,13 +1,18 @@
-.firstBlock {
+.home{
   width: 100%;
-  height: 200vh;
+  height: 500vh;
+  max-width: 100%;
+  overflow-x: hidden;
+} 
+
+.firstBlock {
   display: flex;
   flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.firstBlockContainer {
+.firstContainer {
   width: auto;
   justify-content: center;
   display: flex;
@@ -17,42 +22,42 @@
 }
 /*                                    */
 
-.firstBlockContainer h1:first-child{
+.firstContainer h1:first-child{
   color: white;
   font-size: 4rem;
 }
-.firstBlockContainer h1:nth-child(2){
+.firstContainer h1:nth-child(2){
   color: #FFD800;
   font-size: 4rem;
   margin-top: -0.5em;
 }
 /*                                    */
-.firstBlockSecondContainer{
+.secondContainer{
   display: flex;
   width: auto;
   margin-top: 11em;
 }
 
-.firstBlockSecondContainer .firstHalf{
+.secondContainer .firstHalf{
   width: 30%;
   padding-left: 10em;
 }
 
-.firstBlockSecondContainer .firstHalf h1{
+.secondContainer .firstHalf h1{
   color: #FFD800;
   font-size: 1.2rem;
 }
 
-.firstBlockSecondContainer .firstHalf h2{
+.secondContainer .firstHalf h2{
   color: white;
   font-size: 2rem;
 }
-.firstBlockSecondContainer .firstHalf p{
+.secondContainer .firstHalf p{
   color: white;
   font-size: 1.3rem;
 }
 
-.firstBlockSecondContainer .firstHalf button{
+.secondContainer .firstHalf button{
   color: black;
   background-color: #FFD800;
   font-size: 1.4rem;
@@ -64,23 +69,145 @@
   cursor: pointer;
 }
 
-.firstBlockSecondContainer .firstHalf button:hover {
+.secondContainer button:hover {
   background-color: #ffe867;
   cursor: pointer;
   transition: 0.2s ease-in;
 }
 
 
-.firstBlockSecondContainer .secondHalf h1{
+.secondContainer .secondHalf h1{
   color: #FFD800;
   font-size: 3rem;
   padding-left: 4em;
 }
 
-
-
 /*                                    */
- 
+
+.thirdContainer {
+  margin-top: 15em;
+  text-align: center;
+}
+
+.thirdContainer img{
+  width: 2.5rem;
+}
+
+.thirdContainer h1{
+  color: white;
+  font-size: 3rem;
+}
+
+.thirdContainer h2{
+  color: white;
+  font-size: 1.8rem;
+}
+
+.thirdContainer button{
+  color: black;
+  background-color: #FFD800;
+  font-size: 1.4rem;
+  border: solid 1px;
+  border-radius: 1.7rem;
+  padding: 0.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  cursor: pointer;
+}
+
+.thirdContainer button:hover {
+  background-color: #ffe867;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+/*      SECOND BLOCK                              */
+
+.secondBlock{
+  padding-top: 1em;
+  margin-top: -5em;
+  padding-bottom: 30em;
+}
+
+.secondBlock .firstContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.secondBlock .firstContainer .firstHalf{
+  color: white;
+  text-align: left;
+  margin-left: 15em;
+  margin-top: 10em;
+}
+
+.secondBlock .firstContainer .firstHalf h1 {
+  font-size: 2rem;
+}
+
+.secondBlock .firstContainer .firstHalf p{
+  font-size: 1.5rem;
+}
+
+
+.secondBlock .firstContainer .secondHalf{
+  width: 70%;
+  margin-left: -8em;
+}
+
+.secondBlock .firstContainer .secondHalf img{
+  margin-top: -12em;
+  width: 100%;
+  height: auto;
+}
+
+.secondBlock .secondContainer{
+  margin: 0;
+  display: flex;
+  margin-top: 10em;
+}
+
+.secondBlock .secondContainer .firstHalf{
+  width: 50%;
+  padding: 0;
+}
+
+.secondBlock .secondContainer .firstHalf img{
+  width: 50em;
+  margin-left: 5em;
+  margin-top: -8em;
+}
+
+.secondBlock .secondContainer .secondHalf{
+  width: 50%;
+  color: white;
+  text-align: left;
+  margin-left: 8em;
+  margin-top: 8em;
+}
+
+.secondBlock .secondContainer .secondHalf h1{
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 2rem;
+}
+.secondBlock .secondContainer .secondHalf p{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.secondBlock .thirdContainer{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.secondBlock .thirdContainer h1{
+  color: white;
+  font-size: 1.5rem;
+}
+
 /* full size screens*/
 @media only screen and (min-width: 1024px) {
   .firstBlock{
