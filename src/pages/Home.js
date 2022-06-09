@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HSymbol from "../assets/h.png";
-import Symbol1 from "../assets/symbol1.png";
-import Symbol2 from "../assets/symbol2.png";
-import Symbol3 from "../assets/symbol3.png";
 import "../styles/Home.scss";
 
 function Home() {
@@ -40,72 +37,15 @@ function Home() {
 
       <div className="text-intro text-intro-center">
         <img src={HSymbol} className="icon" alt="icon" />
-        <h2>Time to give Handshake the attention it deserves</h2>
+        <h2>Our Mission</h2>
         <p>
-          Handshake is the world's most powerful peer-to-peer root naming
-          system.
+          Working for the net-positive sake of Handshake is paramount, and above
+          all else, no matter our personal differences, we will not encroach on
+          the integrity of Handshake.
         </p>
         <Link to="/mission">
-          <button>Get Involved {">"}</button>
+          <button>Read More {">"}</button>
         </Link>
-      </div>
-
-      <div className="container text-intro text-intro-simple text-intro-with-image">
-        <div className="content">
-          <h3>A REALLY AWESOME HEADING</h3>
-          <p>
-            Handshake is the world's most powerful peer-to-peer root naming
-            system. Time to give Handshake the attention it deserves.
-          </p>
-        </div>
-        <div className="image halfmoon">
-          <div className="transform-right">Distribution</div>
-        </div>
-      </div>
-
-      <div className="container text-intro text-intro-simple text-intro-with-image mb-0">
-        <div className="image swoosh">
-          <div className="transform-left">Security</div>
-        </div>
-        <div className="content">
-          <h3>A REALLY AWESOME HEADING</h3>
-          <p>
-            Handshake is the world's most powerful peer-to-peer root naming
-            system. Time to give Handshake the attention it deserves.
-          </p>
-        </div>
-      </div>
-
-      <div className="bg-wrapper-secondary">
-        <div className="container">
-          <div className="cards">
-            <div className="card">
-              <img src={Symbol1} alt="n icon" className="icon" />
-              <h3>AWESOME HEADER</h3>
-              <p>
-                Handshake is the world's most powerful peer-to-peer root naming
-                system. Time to give Handshake the attention it deserves.
-              </p>
-            </div>
-            <div className="card">
-              <img src={Symbol2} alt="h icon" className="icon" />
-              <h3>AWESOME HEADER</h3>
-              <p>
-                Handshake is the world's most powerful peer-to-peer root naming
-                system. Time to give Handshake the attention it deserves and
-                make it even better.
-              </p>
-            </div>
-            <div className="card">
-              <img src={Symbol3} alt="s icon" className="icon" />
-              <h3>AWESOME HEADER</h3>
-              <p>
-                Handshake is the world's most powerful peer-to-peer root naming
-                system. Time to give Handshake the attention it deserves.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
