@@ -1,16 +1,18 @@
 import React from 'react'
 import {AboutList} from "../helpers/AboutList"
 import AboutItem from "../components/AboutItem"
+import HalfMoon from "../assets/bg-otherhalfmoon.png"
 import "../styles/About.css"
 
 function About() {
   return (
-    <div className='about'>
+    <div className='about' style={{backgroundImage: `url(${HalfMoon})`}}>
         <div className='aboutHeader'>
           <h1>THE FOUNDERS</h1>
-          <h2>Handshake is the world's most powerful
+          <h2>Handshake is the world's most powerful <br/>
             peer-to-peer root naming system.</h2>
         </div>
+
         <div className='aboutList'>
             {AboutList.map((aboutItem, key) => {
                 return <AboutItem
@@ -19,9 +21,17 @@ function About() {
                   name={aboutItem.name} 
                   description={aboutItem.description} 
                   link={aboutItem.link} 
-                  />
+                />
             })}
         </div>
+
+        <div className='supporters'>
+          <h1>THE SUPPORTERS</h1>
+          <h2>Handshake is the world's most powerful
+            peer-to-peer root naming system.</h2>
+        </div>
+
+
     </div>
   )
 }

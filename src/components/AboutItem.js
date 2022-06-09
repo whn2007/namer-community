@@ -4,13 +4,14 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 
 function AboutItem({ image, name, description, link }) {
   return (
-    <a className="aboutItem" href={link} target="_blank" rel="noreferrer">
-      <img src={ProfileBG} alt="profile-bg"></img>
+    <div className="aboutItem">
+      <div className="profileBackground"
+      style = {{backgroundImage: `url(${ProfileBG})`}} />
       <img src={image} alt={name}></img>
       <h1>{name}</h1>
       <p>{description}</p>
-      <TwitterIcon />
-    </a>
+      <a  href={link} target="_blank" rel="noreferrer"><TwitterIcon /></a>
+    </div>
   );
 }
 
