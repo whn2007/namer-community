@@ -117,7 +117,6 @@ function Home() {
         to-peer root naming system.</h2>
         <button>Get Involved {">"}</button>
       </div>
-
     </div>
   )
 }
