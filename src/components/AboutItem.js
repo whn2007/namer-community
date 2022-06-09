@@ -1,6 +1,6 @@
-import React from 'react'
-import ProfileBG from '../assets/profileBG.png'
-import TwitterIcon from '@material-ui/icons/Twitter'
+import React from "react";
+import ProfileBG from "../assets/bg-profile.jpeg";
+import TwitterIcon from "@material-ui/icons/Twitter";
 
 function AboutItem({ image, name, description, link }) {
   return (
@@ -11,7 +11,7 @@ function AboutItem({ image, name, description, link }) {
       <p>{description}</p>
       <TwitterIcon />
     </a>
-  )
+  );
 }
 
-export default AboutItem
+export default AboutItem;

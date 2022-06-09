@@ -4,7 +4,6 @@ import HSymbol from "../assets/h.png";
 import Symbol1 from "../assets/symbol1.png";
 import Symbol2 from "../assets/symbol2.png";
 import Symbol3 from "../assets/symbol3.png";
-import HomeBottom from "../assets/homeBottom.png";
 import "../styles/Home.scss";
 
 function Home() {
@@ -110,10 +109,7 @@ function Home() {
         </div>
       </div>
 
-      <div
-        className="thirdBlock"
-        style={{ backgroundImage: `url(${HomeBottom})` }}
-      >
+      <div className="thirdBlock">
         <img src={HSymbol} alt="" />
         <h1>
           Time to give Handshake the attention
