@@ -96,9 +96,54 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .text-intro-with-image {
+    margin-top: 12rem !important;
+    margin-bottom: 0rem !important;
+    .halfmoon {
+      &:before {
+        width: 340px;
+        height: 400px;
+      }
+    }
+
+    .swoosh {
+      &:before {
+        width: 400px;
+        height: 222px;
+      }
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .text-intro {
-    min-width: none;
+    min-width: 0px;
     width: 100%;
+  }
+  .text-intro-with-image {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 12rem !important;
+    margin-bottom: 0rem !important;
+
+    .content {
+      order: 2;
+    }
+    .image {
+      order: 1;
+    }
+
+    .halfmoon {
+      &:before {
+        background-image: none;
+      }
+    }
+
+    .swoosh {
+      &:before {
+        background-image: none;
+      }
+    }
   }
 }

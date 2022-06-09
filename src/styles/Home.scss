@@ -5,19 +5,6 @@
   background-size: cover;
 }
 
-.heading {
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 11em;
-
-  & > * {
-    position: relative;
-    z-index: 10;
-  }
-}
-
 h1 {
   color: white;
   font-size: clamp(2rem, 5.5vw, 4rem);

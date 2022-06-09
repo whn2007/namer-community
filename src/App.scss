@@ -85,3 +85,22 @@ button,
 .mb-0 {
   margin-bottom: 0 !important;
 }
+
+.heading {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 11em;
+
+  & > * {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+@media (max-width: 767px) {
+  .heading {
+    margin-top: 8rem;
+  }
+}
