@@ -4,6 +4,9 @@ import firstBlockImage from "../assets/firstBlock.png"
 import secondBlockImage from "../assets/secondBlock.png"
 import security from "../assets/security.png"
 import H from "../assets/h.png"
+import symbol1 from "../assets/symbol1.png"
+import symbol2 from "../assets/symbol2.png"
+import symbol3 from "../assets/symbol3.png"
 import "../styles/Home.css"
 
 
@@ -80,24 +83,24 @@ function Home() {
         </div>
 
         <div className='thirdContainer'>
-          <div className='first'>
-            <img/>
+          <div className='block'>
+            <img src = {symbol1}/>
             <h1>AWESOME HEADER</h1>
             <p>Handshake is the world's most <br/>
               powerful peer-to-peer root naming <br/>
               system. Time to give Handshake <br/>
               the attention it deserves.</p>
           </div>
-          <div className='second'>
-            <img/>
+          <div className='block'>
+            <img src = {symbol2}/>
             <h1>AWESOME HEADER</h1>
             <p>Handshake is the world's most <br/>
               powerful peer-to-peer root naming <br/>
               system. Time to give Handshake <br/>
               the attention it deserves.</p>
           </div>
-          <div className='third'>
-            <img/>
+          <div className='block'>
+            <img src = {symbol3}/>
             <h1>AWESOME HEADER</h1>
             <p>Handshake is the world's most <br/>
               powerful peer-to-peer root naming <br/>

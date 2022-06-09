@@ -201,12 +201,33 @@
   margin: 0;
   display: flex;
   justify-content: center;
+  background-color: #101010;
+  padding: 5em;
 }
 
 .secondBlock .thirdContainer h1{
   color: white;
-  font-size: 1.5rem;
+  margin-top: 0;
+  font-size: 2rem;
 }
+
+.secondBlock .thirdContainer p{
+  font-size: 1.5rem;
+  color: white;
+}
+
+.secondBlock .thirdContainer img{
+  width: 3em;
+}
+
+.secondBlock .thirdContainer .block{
+  padding: 1em;
+}
+
+.secondBlock .thirdContainer .block:nth-child(2){
+  margin-top: -1.6em;
+}
+
 
 /* full size screens*/
 @media only screen and (min-width: 1024px) {
