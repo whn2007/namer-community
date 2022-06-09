@@ -2,6 +2,7 @@
 @import "./styles/variables";
 @import "./styles/reboot";
 @import "./styles/text-intro";
+@import "./styles/cards";
 
 .App {
   width: 100%;
@@ -59,6 +60,10 @@ button,
   margin: 0 auto;
 }
 
+.bg-wrapper-secondary {
+  background-color: #101010;
+}
+
 .transform-left {
   transform: perspective(1500px) rotateY(30deg);
   transition: transform 1s ease 0s;
@@ -75,4 +80,8 @@ button,
   &:hover {
     transform: perspective(3000px) rotateY(-5deg);
   }
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
 }

@@ -3,7 +3,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import FacebookIcon from "@material-ui/icons/Facebook";
-import "../styles/Footer.css";
+import "../styles/Footer.scss";
 
 function Footer() {
   return (
@@ -22,7 +22,9 @@ function Footer() {
           <YouTubeIcon />
         </a>
       </div>
-      <p> &copy; 2022 Namer Community </p>
+      <p>
+        &copy; 2022 <strong>Namer Community</strong>
+      </p>
     </div>
   );
 }
