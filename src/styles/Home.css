@@ -232,10 +232,19 @@
 .thirdBlock{
   text-align: center;
   padding: 8em;
+  padding-bottom: 16em;
 }
 
 .thirdBlock img{
   width: 3em;
+}
+
+.thirdBlock h1{
+  font-size: 2rem;
+}
+
+.thirdBlock h2{
+  font-size: 1.5rem;
 }
 
 .thirdBlock button{
@@ -256,6 +265,17 @@
   transition: 0.2s ease-in;
 }
 
+/* smart phone*/
+
+@media (max-width: 767px){
+
+}
+
+/* tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+}
 
 /* full size screens*/
 @media only screen and (min-width: 1024px) {
@@ -264,5 +284,9 @@
     background-size: 80%;
     background-position: 34em 1em;
   }
-}
 
+  .thirdBlock{
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}

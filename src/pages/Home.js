@@ -3,10 +3,11 @@ import {Link} from "react-router-dom"
 import firstBlockImage from "../assets/firstBlock.png"
 import secondBlockImage from "../assets/secondBlock.png"
 import security from "../assets/security.png"
-import H from "../assets/h.png"
-import symbol1 from "../assets/symbol1.png"
-import symbol2 from "../assets/symbol2.png"
-import symbol3 from "../assets/symbol3.png"
+import HSymbol from "../assets/h.png"
+import Symbol1 from "../assets/symbol1.png"
+import Symbol2 from "../assets/symbol2.png"
+import Symbol3 from "../assets/symbol3.png"
+import HomeBottom from "../assets/homeBottom.png"
 import "../styles/Home.css"
 
 
@@ -40,7 +41,7 @@ function Home() {
           </div>
 
           <div className='thirdContainer'>
-            <img src={H}/>
+            <img src={HSymbol}/>
             <h1>Time to give Handshake <br/> the attention it deserves</h1>
             <h2>Handshake is the world's most powerful peer-<br/>to-peer
             root naming system.</h2>
@@ -84,7 +85,7 @@ function Home() {
 
         <div className='thirdContainer'>
           <div className='block'>
-            <img src = {symbol1}/>
+            <img src = {Symbol1}/>
             <h1>AWESOME HEADER</h1>
             <p>Handshake is the world's most <br/>
               powerful peer-to-peer root naming <br/>
@@ -92,7 +93,7 @@ function Home() {
               the attention it deserves.</p>
           </div>
           <div className='block'>
-            <img src = {symbol2}/>
+            <img src = {Symbol2}/>
             <h1>AWESOME HEADER</h1>
             <p>Handshake is the world's most <br/>
               powerful peer-to-peer root naming <br/>
@@ -100,7 +101,7 @@ function Home() {
               the attention it deserves.</p>
           </div>
           <div className='block'>
-            <img src = {symbol3}/>
+            <img src = {Symbol3}/>
             <h1>AWESOME HEADER</h1>
             <p>Handshake is the world's most <br/>
               powerful peer-to-peer root naming <br/>
@@ -110,13 +111,17 @@ function Home() {
         </div>
       </div>
 
-      <div className='thirdBlock'>
-        <img src = {H}/>
+      <div className='thirdBlock' 
+        style={{backgroundImage: `url(${HomeBottom})`}}>
+        <img src = {HSymbol}/>
         <h1>Time to give Handshake the attention<br/>it deserves</h1>
         <h2>Handshake is the world's most powerful peer-<br/>
         to-peer root naming system.</h2>
-        <button>Get Involved {">"}</button>
+        <Link to = "/mission">
+          <button>Get Involved {">"}</button>
+        </Link>
       </div>
+
     </div>
   )
 }
