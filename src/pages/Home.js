@@ -1,13 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-<<<<<<< Updated upstream
-import HSymbol from "../assets/h.png";
-=======
 import HSymbol from "../assets/H.png";
 import Symbol1 from "../assets/symbol1.png";
 import Symbol2 from "../assets/symbol2.png";
 import Symbol3 from "../assets/symbol3.png";
->>>>>>> Stashed changes
 import "../styles/Home.scss";
 
 function Home() {

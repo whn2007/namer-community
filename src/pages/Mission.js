@@ -2,7 +2,7 @@ import React from "react";
 import Symbol1 from "../assets/symbol1.png";
 import Symbol2 from "../assets/symbol2.png";
 import Symbol3 from "../assets/symbol3.png";
-import HSymbol from "../assets/h.png";
+import HSymbol from "../assets/H.png";
 
 function Menu() {
   return (
