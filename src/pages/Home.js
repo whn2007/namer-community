@@ -108,8 +108,16 @@ function Home() {
               the attention it deserves.</p>
           </div>
         </div>
-
       </div>
+
+      <div className='thirdBlock'>
+        <img src = {H}/>
+        <h1>Time to give Handshake the attention<br/>it deserves</h1>
+        <h2>Handshake is the world's most powerful peer-<br/>
+        to-peer root naming system.</h2>
+        <button>Get Involved {">"}</button>
+      </div>
+
     </div>
   )
 }
