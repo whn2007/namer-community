@@ -64,17 +64,30 @@
       flex: 0 50%;
     }
 
-    .halfmoon {
+    .halfmoon:before,
+    .swoosh:before {
       position: relative;
+      content: "";
+      display: block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      z-index: 1;
+    }
+
+    .halfmoon {
       &:before {
-        content: "";
-        display: block;
         width: 700px;
         height: 825px;
-        background: url("../assets/bg-halfmoon.jpeg");
-        background-size: contain;
-        position: absolute;
-        z-index: 1;
+        background-image: url("../assets/bg-halfmoon.jpeg");
+      }
+    }
+
+    .swoosh {
+      &:before {
+        width: 500px;
+        height: 277px;
+        background-image: url("../assets/bg-swoosh.jpeg");
       }
     }
   }

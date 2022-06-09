@@ -58,3 +58,21 @@ button,
   max-width: 1088px;
   margin: 0 auto;
 }
+
+.transform-left {
+  transform: perspective(1500px) rotateY(30deg);
+  transition: transform 1s ease 0s;
+
+  &:hover {
+    transform: perspective(3000px) rotateY(5deg);
+  }
+}
+
+.transform-right {
+  transform: perspective(1500px) rotateY(-30deg);
+  transition: transform 1s ease 0s;
+
+  &:hover {
+    transform: perspective(3000px) rotateY(-5deg);
+  }
+}

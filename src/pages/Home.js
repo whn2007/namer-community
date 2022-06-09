@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import security from "../assets/security.png";
 import HSymbol from "../assets/h.png";
 import Symbol1 from "../assets/symbol1.png";
 import Symbol2 from "../assets/symbol2.png";
@@ -32,7 +31,7 @@ function Home() {
           </Link>
         </div>
         <div>
-          <h2>
+          <h2 className="transform-right">
             PEER-TO-PEER <br /> ROOT NAMING <br /> SYSTEM
           </h2>
         </div>
@@ -59,13 +58,13 @@ function Home() {
           </p>
         </div>
         <div className="image halfmoon">
-          <div>Distribution</div>
+          <div className="transform-right">Distribution</div>
         </div>
       </div>
 
       <div className="container text-intro text-intro-simple text-intro-with-image">
-        <div className="image">
-          <div>Security</div>
+        <div className="image swoosh">
+          <div className="transform-left">Security</div>
         </div>
         <div className="content">
           <h3>A REALLY AWESOME HEADING</h3>
