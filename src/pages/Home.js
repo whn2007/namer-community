@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import secondBlockImage from "../assets/secondBlock.png";
 import security from "../assets/security.png";
 import HSymbol from "../assets/h.png";
 import Symbol1 from "../assets/symbol1.png";
@@ -51,43 +50,33 @@ function Home() {
         </Link>
       </div>
 
-      <div
-        className="secondBlock"
-        style={{
-          backgroundColor: "black",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        <div className="firstContainer">
-          <div className="firstHalf">
-            <h1>A REALLY AWESOME HEADING</h1>
-            <p>
-              Handshake is the world's most <br />
-              powerful peer-to-peer root naming <br />
-              system. Time to give Handshake <br />
-              the attention it deserves.
-            </p>
-          </div>
-          <div className="secondHalf">
-            <img src={secondBlockImage} alt="grunge" />
-          </div>
+      <div className="container text-intro text-intro-simple text-intro-with-image">
+        <div className="content">
+          <h3>A REALLY AWESOME HEADING</h3>
+          <p>
+            Handshake is the world's most powerful peer-to-peer root naming
+            system. Time to give Handshake the attention it deserves.
+          </p>
         </div>
-
-        <div className="secondContainer">
-          <div className="firstHalf">
-            <img src={security} alt="" />
-          </div>
-          <div className="secondHalf">
-            <h1>AWESOME HEADING</h1>
-            <p>
-              Handshake is the world's most <br />
-              powerful peer-to-peer root naming <br />
-              system. Time to give Handshake <br />
-              the attention it deserves.
-            </p>
-          </div>
+        <div className="image halfmoon">
+          <div>Distribution</div>
         </div>
+      </div>
 
+      <div className="container text-intro text-intro-simple text-intro-with-image">
+        <div className="image">
+          <div>Security</div>
+        </div>
+        <div className="content">
+          <h3>A REALLY AWESOME HEADING</h3>
+          <p>
+            Handshake is the world's most powerful peer-to-peer root naming
+            system. Time to give Handshake the attention it deserves.
+          </p>
+        </div>
+      </div>
+
+      <div className="secondBlock">
         <div className="thirdContainer">
           <div className="block">
             <img src={Symbol1} alt="grunge" />

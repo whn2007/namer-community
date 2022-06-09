@@ -1,0 +1,88 @@
+.text-intro {
+  min-width: 30rem;
+
+  strong {
+    display: block;
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 2.7rem;
+  }
+  h3 {
+    font-size: 2.3rem;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  img.icon {
+    max-width: 3rem;
+    height: auto;
+  }
+
+  &-center {
+    text-align: center;
+    max-width: 40rem;
+    margin: 5rem auto;
+  }
+
+  &-simple {
+    h3 {
+      font-size: 2rem;
+    }
+  }
+
+  &-with-image {
+    display: flex;
+    margin-top: 20rem !important;
+    margin-bottom: 20rem !important;
+    z-index: 5;
+
+    .content {
+      padding: 0 2rem;
+      position: relative;
+      z-index: 10;
+    }
+
+    // Image
+    .image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      div {
+        font-size: 3rem;
+        font-weight: var(--font-weight-bold);
+        color: var(--primary);
+        position: relative;
+        z-index: 10;
+      }
+    }
+
+    & > * {
+      flex: 0 50%;
+    }
+
+    .halfmoon {
+      position: relative;
+      &:before {
+        content: "";
+        display: block;
+        width: 700px;
+        height: 825px;
+        background: url("../assets/bg-halfmoon.jpeg");
+        background-size: contain;
+        position: absolute;
+        z-index: 1;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .text-intro {
+    min-width: none;
+    width: 100%;
+  }
+}
