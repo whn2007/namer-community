@@ -53,6 +53,7 @@ h1 > span {
     font-size: 3rem;
     position: relative;
     z-index: 10;
+    margin-left: 2rem;
   }
 
   &:before {
@@ -64,7 +65,7 @@ h1 > span {
     background-size: contain;
     position: absolute;
     top: -460px;
-    left: -130px;
+    left: -60px;
     z-index: 1;
   }
 }

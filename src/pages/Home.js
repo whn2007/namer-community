@@ -17,21 +17,23 @@ function Home() {
 
       <div className="container main-action">
         <div className="text-intro">
-          <strong>Change is coming</strong>
+          <strong>The Power for Change</strong>
           <h3>
-            Supported by the <br /> Handshake founders
+            16 Directors working
+            <br />
+            Full-Time on Handshake
           </h3>
           <p>
-            Handshake is the world's most powerful <br />
-            peer to peer root naming system.
+            A dedicated community to give Handshake the love &amp; attention it
+            deserves.
           </p>
-          <Link to="/mission">
-            <button>Get Involved {">"}</button>
+          <Link to="/about">
+            <button>Meet the Founders {">"}</button>
           </Link>
         </div>
         <div>
           <h2 className="transform-right">
-            PEER-TO-PEER <br /> ROOT NAMING <br /> SYSTEM
+            Welcome to the upgraded Namer Community!
           </h2>
         </div>
       </div>
