@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
-@import './styles/variables';
-@import './styles/reboot';
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap");
+@import "./styles/variables";
+@import "./styles/reboot";
+@import "./styles/elements";
 
 .App {
   width: 100%;
@@ -10,6 +11,7 @@
 }
 
 body {
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
   /* Disables vertical scrollbar*/
@@ -30,4 +32,22 @@ h2,
 h3,
 h4 {
   font-weight: var(--font-weight-bold);
+}
+
+button,
+.btn {
+  color: var(--black);
+  background-color: var(--primary);
+  font-weight: var(--font-weight-bold);
+  border: none;
+  border-radius: 1.7rem;
+  padding: 0.5em 1.5em;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.container {
+  max-width: 1088px;
+  margin: 0 auto;
 }

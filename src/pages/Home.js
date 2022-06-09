@@ -1,14 +1,14 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import firstBlockImage from '../assets/firstBlock.png'
-import secondBlockImage from '../assets/secondBlock.png'
-import security from '../assets/security.png'
-import HSymbol from '../assets/h.png'
-import Symbol1 from '../assets/symbol1.png'
-import Symbol2 from '../assets/symbol2.png'
-import Symbol3 from '../assets/symbol3.png'
-import HomeBottom from '../assets/homeBottom.png'
-import '../styles/Home.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import firstBlockImage from "../assets/firstBlock.png";
+import secondBlockImage from "../assets/secondBlock.png";
+import security from "../assets/security.png";
+import HSymbol from "../assets/h.png";
+import Symbol1 from "../assets/symbol1.png";
+import Symbol2 from "../assets/symbol2.png";
+import Symbol3 from "../assets/symbol3.png";
+import HomeBottom from "../assets/homeBottom.png";
+import "../styles/Home.scss";
 
 function Home() {
   return (
@@ -16,30 +16,29 @@ function Home() {
       <div
         className="firstBlock"
         style={{
-          backgroundColor: 'black',
+          backgroundColor: "black",
           backgroundImage: `url(${firstBlockImage})`,
-          backgroundRepeat: 'no-repeat'
+          backgroundRepeat: "no-repeat",
         }}
       >
         <div className="firstContainer">
           <h1>
-            A HANDSHAKE IMPROVEMENT <br /> PROPOSAL TO FIX
+            A HANDSHAKE IMPROVEMENT PROPOSAL TO FIX <span>TOKEN ECONOMICS</span>
           </h1>
-          <h1>TOKEN ECONOMICS</h1>
         </div>
 
-        <div className="secondContainer">
-          <div className="firstHalf">
-            <h1>Change is coming</h1>
-            <h2>
+        <div className="container secondContainer">
+          <div className="text-intro firstHalf">
+            <strong>Change is coming</strong>
+            <h3>
               Supported by the <br /> Handshake founders
-            </h2>
+            </h3>
             <p>
               Handshake is the world's most powerful <br />
               peer to peer root naming system.
             </p>
             <Link to="/mission">
-              <button>Get Involved {'>'}</button>
+              <button>Get Involved {">"}</button>
             </Link>
           </div>
           <div className="secondHalf">
@@ -60,7 +59,7 @@ function Home() {
             to-peer root naming system.
           </h2>
           <Link to="/mission">
-            <button>Get Involved {'>'}</button>
+            <button>Get Involved {">"}</button>
           </Link>
         </div>
       </div>
@@ -68,8 +67,8 @@ function Home() {
       <div
         className="secondBlock"
         style={{
-          backgroundColor: 'black',
-          backgroundRepeat: 'no-repeat'
+          backgroundColor: "black",
+          backgroundRepeat: "no-repeat",
         }}
       >
         <div className="firstContainer">
@@ -152,11 +151,11 @@ function Home() {
           to-peer root naming system.
         </h2>
         <Link to="/mission">
-          <button>Get Involved {'>'}</button>
+          <button>Get Involved {">"}</button>
         </Link>
       </div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

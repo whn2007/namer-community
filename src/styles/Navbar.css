@@ -33,12 +33,12 @@
   padding: 1.5rem;
 }
 
-.navbar a:hover{
+.navbar a:hover {
   color: white;
   transition: 0.2s ease-in-out;
 }
 
-.navbar a:nth-child(3){
+.navbar a:nth-child(3) {
   margin-left: 1rem;
 }
 
@@ -48,7 +48,7 @@
   cursor: pointer;
 }
 
-.navbar .rightSide svg{
+.navbar .rightSide svg {
   color: white;
   font-size: 5rem;
 }
@@ -69,15 +69,13 @@
   display: none;
 }
 
-
 @media only screen and (min-width: 1024px) {
-  .navbar .rightSide{
+  .navbar .rightSide {
     margin-right: 4em;
   }
 
   .navbar .rightSide a {
-    width: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .navbar .leftSide {
     padding-left: 3em;
@@ -100,7 +98,7 @@
     display: inherit;
   }
 
-  .navbar .rightSide svg{
+  .navbar .rightSide svg {
     color: white;
     font-size: 40px;
   }

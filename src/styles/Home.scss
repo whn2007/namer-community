@@ -1,10 +1,3 @@
-.home{
-  width: 100%;
-  height: 500vh;
-  max-width: 100%;
-  overflow-x: hidden;
-} 
-
 .firstBlock {
   display: flex;
   flex-direction: column;
@@ -20,53 +13,31 @@
   text-align: center;
   margin-top: 11em;
 }
-/*                                    */
 
-.firstContainer h1:first-child{
+h1 {
   color: white;
-  font-size: 4rem;
+  font-size: clamp(2rem, 5.5vw, 4rem);
+  max-width: 80rem;
+  margin: 0 auto;
 }
-.firstContainer h1:nth-child(2){
-  color: #FFD800;
-  font-size: 4rem;
-  margin-top: -0.5em;
+h1 > span {
+  color: #ffd800;
+  display: block;
 }
-/*                                    */
-.secondContainer{
+
+.secondContainer {
   display: flex;
   width: auto;
   margin-top: 11em;
+
+  div:first-of-type {
+    width: 30%;
+  }
 }
 
-.secondContainer .firstHalf{
-  width: 30%;
-  padding-left: 10em;
-}
-
-.secondContainer .firstHalf h1{
-  color: #FFD800;
+.secondContainer div:last-of-type h3 {
+  color: #ffd800;
   font-size: 1.2rem;
-}
-
-.secondContainer .firstHalf h2{
-  color: white;
-  font-size: 2rem;
-}
-.secondContainer .firstHalf p{
-  color: white;
-  font-size: 1.3rem;
-}
-
-.secondContainer .firstHalf button{
-  color: black;
-  background-color: #FFD800;
-  font-size: 1.4rem;
-  border: none;
-  border-radius: 1.7rem;
-  padding: 0.5em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  cursor: pointer;
 }
 
 .secondContainer button:hover {
@@ -75,9 +46,8 @@
   transition: 0.2s ease-in;
 }
 
-
-.secondContainer .secondHalf h1{
-  color: #FFD800;
+.secondContainer .secondHalf h1 {
+  color: #ffd800;
   font-size: 3rem;
   padding-left: 4em;
 }
@@ -89,23 +59,23 @@
   text-align: center;
 }
 
-.thirdContainer img{
+.thirdContainer img {
   width: 2.5rem;
 }
 
-.thirdContainer h1{
+.thirdContainer h1 {
   color: white;
   font-size: 3rem;
 }
 
-.thirdContainer h2{
+.thirdContainer h2 {
   color: white;
   font-size: 1.8rem;
 }
 
-.thirdContainer button{
+.thirdContainer button {
   color: black;
-  background-color: #FFD800;
+  background-color: #ffd800;
   font-size: 1.4rem;
   border: none;
   border-radius: 1.7rem;
@@ -123,18 +93,18 @@
 
 /*      SECOND BLOCK                              */
 
-.secondBlock{
+.secondBlock {
   padding-top: 1em;
   margin-top: -5em;
   padding-bottom: 0em;
 }
 
-.secondBlock .firstContainer{
+.secondBlock .firstContainer {
   display: flex;
   flex-direction: row;
 }
 
-.secondBlock .firstContainer .firstHalf{
+.secondBlock .firstContainer .firstHalf {
   color: white;
   text-align: left;
   margin-left: 15em;
@@ -145,40 +115,39 @@
   font-size: 2rem;
 }
 
-.secondBlock .firstContainer .firstHalf p{
+.secondBlock .firstContainer .firstHalf p {
   font-size: 1.5rem;
 }
 
-
-.secondBlock .firstContainer .secondHalf{
+.secondBlock .firstContainer .secondHalf {
   width: 70%;
   margin-left: -8em;
 }
 
-.secondBlock .firstContainer .secondHalf img{
+.secondBlock .firstContainer .secondHalf img {
   margin-top: -12em;
   width: 100%;
   height: auto;
 }
 
-.secondBlock .secondContainer{
+.secondBlock .secondContainer {
   margin: 0;
   display: flex;
   margin-top: 10em;
 }
 
-.secondBlock .secondContainer .firstHalf{
+.secondBlock .secondContainer .firstHalf {
   width: 50%;
   padding: 0;
 }
 
-.secondBlock .secondContainer .firstHalf img{
+.secondBlock .secondContainer .firstHalf img {
   width: 50em;
   margin-left: 5em;
   margin-top: -8em;
 }
 
-.secondBlock .secondContainer .secondHalf{
+.secondBlock .secondContainer .secondHalf {
   width: 50%;
   color: white;
   text-align: left;
@@ -186,18 +155,18 @@
   margin-top: 8em;
 }
 
-.secondBlock .secondContainer .secondHalf h1{
+.secondBlock .secondContainer .secondHalf h1 {
   padding: 0;
   margin: 0;
   color: white;
   font-size: 2rem;
 }
-.secondBlock .secondContainer .secondHalf p{
+.secondBlock .secondContainer .secondHalf p {
   color: white;
   font-size: 1.5rem;
 }
 
-.secondBlock .thirdContainer{
+.secondBlock .thirdContainer {
   margin: 0;
   display: flex;
   justify-content: center;
@@ -205,51 +174,51 @@
   padding: 5em;
 }
 
-.secondBlock .thirdContainer h1{
+.secondBlock .thirdContainer h1 {
   color: white;
   margin-top: 0;
   font-size: 2rem;
 }
 
-.secondBlock .thirdContainer p{
+.secondBlock .thirdContainer p {
   font-size: 1.5rem;
   color: white;
 }
 
-.secondBlock .thirdContainer img{
+.secondBlock .thirdContainer img {
   width: 3em;
 }
 
-.secondBlock .thirdContainer .block{
+.secondBlock .thirdContainer .block {
   padding: 1em;
 }
 
-.secondBlock .thirdContainer .block:nth-child(2){
+.secondBlock .thirdContainer .block:nth-child(2) {
   margin-top: -1.6em;
 }
 /*                     THIRD BLOCK                             */
 
-.thirdBlock{
+.thirdBlock {
   text-align: center;
   padding: 8em;
   padding-bottom: 16em;
 }
 
-.thirdBlock img{
+.thirdBlock img {
   width: 3em;
 }
 
-.thirdBlock h1{
+.thirdBlock h1 {
   font-size: 2rem;
 }
 
-.thirdBlock h2{
+.thirdBlock h2 {
   font-size: 1.5rem;
 }
 
-.thirdBlock button{
+.thirdBlock button {
   color: black;
-  background-color: #FFD800;
+  background-color: #ffd800;
   font-size: 1.4rem;
   border: none;
   border-radius: 1.7rem;
@@ -267,25 +236,23 @@
 
 /* smart phone*/
 
-@media (max-width: 767px){
-
+@media (max-width: 767px) {
 }
 
 /* tablets */
 
-@media only screen and (min-width: 768px) and (max-width: 1023px){
-
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 }
 
 /* full size screens*/
 @media only screen and (min-width: 1024px) {
-  .firstBlock{
+  .firstBlock {
     width: 100%;
     background-size: 80%;
     background-position: 34em 1em;
   }
 
-  .thirdBlock{
+  .thirdBlock {
     background-repeat: no-repeat;
     background-size: 100%;
   }
