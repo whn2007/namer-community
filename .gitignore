@@ -5,6 +5,12 @@
 # Only exists if Bazel was run
 /bazel-out
 
+# testing
+/coverage
+
+# production
+/build
+
 # dependencies
 /node_modules
 
