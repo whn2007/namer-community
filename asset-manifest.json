@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/namer-community/static/css/main.d69c8123.css",
-    "main.js": "/namer-community/static/js/main.0dc348fb.js",
+    "main.css": "/namer-community/static/css/main.c6a461eb.css",
+    "main.js": "/namer-community/static/js/main.f58d0aab.js",
     "static/js/787.e403dcb9.chunk.js": "/namer-community/static/js/787.e403dcb9.chunk.js",
     "static/media/secondBlock.png": "/namer-community/static/media/secondBlock.2f6ce88ff8d5441792ff.png",
-    "static/media/firstBlock.png": "/namer-community/static/media/firstBlock.344c3c2c70c9d01e3ea3.png",
     "static/media/homeBottom.png": "/namer-community/static/media/homeBottom.eba18c86c4bdfeadf2d3.png",
     "static/media/security.png": "/namer-community/static/media/security.33883bebc628024ec281.png",
     "static/media/profileBG.png": "/namer-community/static/media/profileBG.c64d4b6ba9b90efa241d.png",
+    "static/media/bg-home-intro.jpeg": "/namer-community/static/media/bg-home-intro.e2ca55c8b9b2c20b4615.jpeg",
     "static/media/logo.png": "/namer-community/static/media/logo.8893f979a412004e913e.png",
     "index.html": "/namer-community/index.html",
-    "main.d69c8123.css.map": "/namer-community/static/css/main.d69c8123.css.map",
-    "main.0dc348fb.js.map": "/namer-community/static/js/main.0dc348fb.js.map",
+    "main.c6a461eb.css.map": "/namer-community/static/css/main.c6a461eb.css.map",
+    "main.f58d0aab.js.map": "/namer-community/static/js/main.f58d0aab.js.map",
     "787.e403dcb9.chunk.js.map": "/namer-community/static/js/787.e403dcb9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d69c8123.css",
-    "static/js/main.0dc348fb.js"
+    "static/css/main.c6a461eb.css",
+    "static/js/main.f58d0aab.js"
   ]
 }
