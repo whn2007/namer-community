@@ -4,7 +4,6 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Mission from "./pages/Mission";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
           <Route path="/namer-community" exact element={<Home />} />
           <Route path="/mission" exact element={<Mission />} />
           <Route path="/about" exact element={<About />} />
-          <Route path="/contact" exact element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
