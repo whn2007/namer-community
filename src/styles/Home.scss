@@ -5,8 +5,7 @@
   background-size: cover;
 }
 
-.firstContainer {
-  width: auto;
+.heading {
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -30,19 +29,23 @@ h1 > span {
   display: block;
 }
 
-.secondContainer {
+.text-intro {
+  position: relative;
+  z-index: 10;
+}
+
+.main-action {
   display: flex;
   margin-top: 16em;
+  margin-bottom: 15em;
 
   .text-intro {
-    position: relative;
-    z-index: 10;
     transform: translate(0, -2rem);
     width: 50%;
   }
 }
 
-.secondContainer div:last-of-type {
+.main-action div:last-of-type {
   position: relative;
 
   h2 {
@@ -66,50 +69,6 @@ h1 > span {
     z-index: 1;
   }
 }
-
-/*                                    */
-
-.thirdContainer {
-  margin-top: 15em;
-  text-align: center;
-
-  position: relative;
-  z-index: 10;
-}
-
-.thirdContainer img {
-  width: 2.5rem;
-}
-
-.thirdContainer h1 {
-  color: white;
-  font-size: 3rem;
-}
-
-.thirdContainer h2 {
-  color: white;
-  font-size: 1.8rem;
-}
-
-.thirdContainer button {
-  color: black;
-  background-color: #ffd800;
-  font-size: 1.4rem;
-  border: none;
-  border-radius: 1.7rem;
-  padding: 0.5em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  cursor: pointer;
-}
-
-.thirdContainer button:hover {
-  background-color: #ffe867;
-  cursor: pointer;
-  transition: 0.2s ease-in;
-}
-
-/*      SECOND BLOCK                              */
 
 .secondBlock {
   padding-top: 1em;
@@ -232,24 +191,6 @@ h1 > span {
 
 .thirdBlock h2 {
   font-size: 1.5rem;
-}
-
-.thirdBlock button {
-  color: black;
-  background-color: #ffd800;
-  font-size: 1.4rem;
-  border: none;
-  border-radius: 1.7rem;
-  padding: 0.5em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  cursor: pointer;
-}
-
-.thirdBlock button:hover {
-  background-color: #ffe867;
-  cursor: pointer;
-  transition: 0.2s ease-in;
 }
 
 /* smart phone*/

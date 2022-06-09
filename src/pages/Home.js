@@ -12,48 +12,43 @@ import "../styles/Home.scss";
 function Home() {
   return (
     <div className="home">
-      <div className="firstBlock">
-        <div className="firstContainer">
-          <h1>
-            A HANDSHAKE IMPROVEMENT PROPOSAL TO FIX <span>TOKEN ECONOMICS</span>
-          </h1>
-        </div>
+      <div className="heading">
+        <h1>
+          A HANDSHAKE IMPROVEMENT PROPOSAL TO FIX <span>TOKEN ECONOMICS</span>
+        </h1>
+      </div>
 
-        <div className="container secondContainer">
-          <div className="text-intro">
-            <strong>Change is coming</strong>
-            <h3>
-              Supported by the <br /> Handshake founders
-            </h3>
-            <p>
-              Handshake is the world's most powerful <br />
-              peer to peer root naming system.
-            </p>
-            <Link to="/mission">
-              <button>Get Involved {">"}</button>
-            </Link>
-          </div>
-          <div>
-            <h2>
-              PEER-TO-PEER <br /> ROOT NAMING <br /> SYSTEM
-            </h2>
-          </div>
-        </div>
-
-        <div className="thirdContainer">
-          <img src={HSymbol} alt="icon" />
-          <h1>
-            Time to give Handshake <br /> the attention it deserves
-          </h1>
-          <h2>
-            Handshake is the world's most powerful peer-
-            <br />
-            to-peer root naming system.
-          </h2>
+      <div className="container main-action">
+        <div className="text-intro">
+          <strong>Change is coming</strong>
+          <h3>
+            Supported by the <br /> Handshake founders
+          </h3>
+          <p>
+            Handshake is the world's most powerful <br />
+            peer to peer root naming system.
+          </p>
           <Link to="/mission">
             <button>Get Involved {">"}</button>
           </Link>
         </div>
+        <div>
+          <h2>
+            PEER-TO-PEER <br /> ROOT NAMING <br /> SYSTEM
+          </h2>
+        </div>
+      </div>
+
+      <div className="text-intro text-intro-center">
+        <img src={HSymbol} className="icon" alt="icon" />
+        <h2>Time to give Handshake the attention it deserves</h2>
+        <p>
+          Handshake is the world's most powerful peer-to-peer root naming
+          system.
+        </p>
+        <Link to="/mission">
+          <button>Get Involved {">"}</button>
+        </Link>
       </div>
 
       <div
