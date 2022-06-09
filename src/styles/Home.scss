@@ -12,44 +12,59 @@
   flex-direction: column;
   text-align: center;
   margin-top: 11em;
+
+  & > * {
+    position: relative;
+    z-index: 10;
+  }
 }
 
 h1 {
   color: white;
   font-size: clamp(2rem, 5.5vw, 4rem);
-  max-width: 80rem;
+  max-width: 70rem;
   margin: 0 auto;
 }
 h1 > span {
-  color: #ffd800;
+  color: var(--primary);
   display: block;
 }
 
 .secondContainer {
   display: flex;
-  width: auto;
-  margin-top: 11em;
+  margin-top: 16em;
 
-  div:first-of-type {
-    width: 30%;
+  .text-intro {
+    position: relative;
+    z-index: 10;
+    transform: translate(0, -2rem);
+    width: 50%;
   }
 }
 
-.secondContainer div:last-of-type h3 {
-  color: #ffd800;
-  font-size: 1.2rem;
-}
+.secondContainer div:last-of-type {
+  position: relative;
 
-.secondContainer button:hover {
-  background-color: #ffe867;
-  cursor: pointer;
-  transition: 0.2s ease-in;
-}
+  h2 {
+    color: var(--primary);
+    font-size: 3rem;
+    position: relative;
+    z-index: 10;
+    transform: skewY(-6deg) skewX(-2deg) rotate(1deg) translateX(39px);
+  }
 
-.secondContainer .secondHalf h1 {
-  color: #ffd800;
-  font-size: 3rem;
-  padding-left: 4em;
+  &:before {
+    content: "";
+    display: block;
+    width: 700px;
+    height: 1080px;
+    background: url("../assets/bg-home-intro.jpeg");
+    background-size: contain;
+    position: absolute;
+    top: -460px;
+    left: -100px;
+    z-index: 1;
+  }
 }
 
 /*                                    */
@@ -57,6 +72,9 @@ h1 > span {
 .thirdContainer {
   margin-top: 15em;
   text-align: center;
+
+  position: relative;
+  z-index: 10;
 }
 
 .thirdContainer img {

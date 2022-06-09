@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import firstBlockImage from "../assets/firstBlock.png";
 import secondBlockImage from "../assets/secondBlock.png";
 import security from "../assets/security.png";
 import HSymbol from "../assets/h.png";
@@ -13,14 +12,7 @@ import "../styles/Home.scss";
 function Home() {
   return (
     <div className="home">
-      <div
-        className="firstBlock"
-        style={{
-          backgroundColor: "black",
-          backgroundImage: `url(${firstBlockImage})`,
-          backgroundRepeat: "no-repeat",
-        }}
-      >
+      <div className="firstBlock">
         <div className="firstContainer">
           <h1>
             A HANDSHAKE IMPROVEMENT PROPOSAL TO FIX <span>TOKEN ECONOMICS</span>
@@ -28,7 +20,7 @@ function Home() {
         </div>
 
         <div className="container secondContainer">
-          <div className="text-intro firstHalf">
+          <div className="text-intro">
             <strong>Change is coming</strong>
             <h3>
               Supported by the <br /> Handshake founders
@@ -41,10 +33,10 @@ function Home() {
               <button>Get Involved {">"}</button>
             </Link>
           </div>
-          <div className="secondHalf">
-            <h1>
+          <div>
+            <h2>
               PEER-TO-PEER <br /> ROOT NAMING <br /> SYSTEM
-            </h1>
+            </h2>
           </div>
         </div>
 

@@ -17,6 +17,7 @@ body {
   /* Disables vertical scrollbar*/
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  background: var(--black);
 }
 
 /* Disables vertical scrollbar*/
@@ -45,9 +46,15 @@ button,
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+
+  &:hover {
+    background-color: #ffe867;
+    transition: 0.2s ease-in;
+  }
 }
 
 .container {
+  width: 100%;
   max-width: 1088px;
   margin: 0 auto;
 }
