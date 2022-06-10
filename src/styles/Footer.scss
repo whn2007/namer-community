@@ -23,8 +23,34 @@
   font-size: 3rem;
 }
 
+
+@media only screen and (max-width: 767px) {
+  .footer{
+    margin-left: 1em;
+  }
+
+  .socialMedia svg {
+    margin: 0.2em;
+  }  
+}
+
+/* tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer{
+    margin-left: 15em;
+  }
+
+  .socialMedia svg {
+    margin: 0.2em;
+  }  
+}
+
+/* Full size screen */
+
 @media only screen and (min-width: 1024px) {
   .socialMedia svg {
     margin: 0.2em;
   }
 }
+

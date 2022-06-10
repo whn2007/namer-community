@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HSymbol from "../assets/h.png";
+import HSymbol from "../assets/H.png";
 import "../styles/Home.scss";
 
 function Home() {
@@ -28,7 +28,7 @@ function Home() {
             <button>Meet the Founders {">"}</button>
           </Link>
         </div>
-        <div>
+        <div className="text-right">
           <h2 className="transform-right">
             Welcome to the upgraded Namer Community!
           </h2>

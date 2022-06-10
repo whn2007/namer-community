@@ -13,11 +13,6 @@ import MatthewZipkin from "../assets/profilepics/matthewzipkin.png"
 
 export const SupportList = [
   {
-    name: "Matthew Zipkin",
-    image: MatthewZipkin,
-    description: "GOAT",
-    link: "https://twitter.com/MatthewZipkin/"
-  },{
     name: "Andrew Lee",
     image: AndrewLee,
     description: "Creator of Handshake",
