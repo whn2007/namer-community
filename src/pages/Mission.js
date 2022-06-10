@@ -2,7 +2,7 @@ import React from "react";
 import Symbol1 from "../assets/symbol1.png";
 import Symbol2 from "../assets/symbol2.png";
 import Symbol3 from "../assets/symbol3.png";
-import HSymbol from "../assets/H.png";
+import HSymbol from "../assets/h.png";
 import { Link } from "react-router-dom";
 
 function Menu() {
@@ -118,7 +118,7 @@ function Menu() {
                 16 Directors working Full-Time on Handshake. A dedicated
                 community to give Handshake the love & attention it deserves.
               </p>
-              <Link to = "/about">
+              <Link to="/about">
                 <button>Meet the Founders {">"}</button>
               </Link>
             </div>
