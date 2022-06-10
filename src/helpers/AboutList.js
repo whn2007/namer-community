@@ -59,6 +59,6 @@ export const AboutList = [
     name: "121k/",
     image: Supporter,
     description: "Support",
-    link: "",
+    link: "https://twitter.com/namer121k",
   },
 ];
