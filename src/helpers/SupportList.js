@@ -7,18 +7,21 @@ import KibaGateaux from "../assets/profilepics/kibagateaux.png"
 import JosephPoon from "../assets/profilepics/josephpoon.png"
 import JothanFrakes from "../assets/profilepics/jothanfrakes.png"
 import RichardKirkendall from "../assets/profilepics/richardkirkendall.png"
+import AndrewLee from "../assets/profilepics/andrewlee.png"
+import Kyokan from "../assets/profilepics/kyokan.png"
+import MatthewZipkin from "../assets/profilepics/matthewzipkin.png"
 
 export const SupportList = [
   {
     name: "Matthew Zipkin",
-    image: CoinPrince,
-    description: "",
-    link: ""
+    image: MatthewZipkin,
+    description: "GOAT",
+    link: "https://twitter.com/MatthewZipkin/"
   },{
     name: "Andrew Lee",
-    image: CoinPrince,
-    description: "",
-    link: ""
+    image: AndrewLee,
+    description: "Creator of Handshake",
+    link: "https://twitter.com/2drewlee"
   },
   {
     name: "Richard Kirkendall",
@@ -40,9 +43,9 @@ export const SupportList = [
   },
   {
     name: "Kyokan",
-    image: CoinPrince,
-    description: "",
-    link: ""
+    image: Kyokan,
+    description: "Creator of Bob Wallet",
+    link: "https://twitter.com/kyokan_io/"
   },
   {
     name: "Tom Barrett",
