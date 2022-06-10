@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/namer-community/static/css/main.f41358c2.css",
-    "main.js": "/namer-community/static/js/main.0238c963.js",
+    "main.js": "/namer-community/static/js/main.acce49dd.js",
     "static/js/787.e403dcb9.chunk.js": "/namer-community/static/js/787.e403dcb9.chunk.js",
     "static/media/matthewzipkin.png": "/namer-community/static/media/matthewzipkin.69eeb78a06f58c977ea1.png",
     "static/media/bg-otherhalfmoon.png": "/namer-community/static/media/bg-otherhalfmoon.c85ec764162a888d7934.png",
@@ -24,7 +24,6 @@
     "static/media/sulu.png": "/namer-community/static/media/sulu.6c303ab942318b36b1dc.png",
     "static/media/tieshun.png": "/namer-community/static/media/tieshun.2968a83053c70e26f4b7.png",
     "static/media/bg-profile.jpeg": "/namer-community/static/media/bg-profile.0f2f473762250d0a8ce2.jpeg",
-    "static/media/stefan.png": "/namer-community/static/media/stefan.218f3d0d61b2393d53bc.png",
     "static/media/jothanfrakes.png": "/namer-community/static/media/jothanfrakes.55d2332637b89ceae7f0.png",
     "static/media/bg-footer.jpeg": "/namer-community/static/media/bg-footer.113214f76b0646128e6e.jpeg",
     "static/media/encrypted.png": "/namer-community/static/media/encrypted.69167b074006098db54d.png",
@@ -35,11 +34,11 @@
     "static/media/kyokan.png": "/namer-community/static/media/kyokan.243adea3a6b7d7fa1754.png",
     "index.html": "/namer-community/index.html",
     "main.f41358c2.css.map": "/namer-community/static/css/main.f41358c2.css.map",
-    "main.0238c963.js.map": "/namer-community/static/js/main.0238c963.js.map",
+    "main.acce49dd.js.map": "/namer-community/static/js/main.acce49dd.js.map",
     "787.e403dcb9.chunk.js.map": "/namer-community/static/js/787.e403dcb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f41358c2.css",
-    "static/js/main.0238c963.js"
+    "static/js/main.acce49dd.js"
   ]
 }
