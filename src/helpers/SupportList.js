@@ -1,4 +1,12 @@
 import CoinPrince from "../assets/profilepics/coinprince.png"
+import Tieshun from "../assets/profilepics/tieshun.png"
+import MikeMichelini from "../assets/profilepics/mikemichelini.png"
+import MikeCarson from "../assets/profilepics/mikecarson.png"
+import JehanChu from "../assets/profilepics/jehanchu.png"
+import KibaGateaux from "../assets/profilepics/kibagateaux.png"
+import JosephPoon from "../assets/profilepics/josephpoon.png"
+import JothanFrakes from "../assets/profilepics/jothanfrakes.png"
+import RichardKirkendall from "../assets/profilepics/richardkirkendall.png"
 
 export const SupportList = [
   {
@@ -14,9 +22,9 @@ export const SupportList = [
   },
   {
     name: "Richard Kirkendall",
-    image: CoinPrince,
-    description: "",
-    link: ""
+    image: RichardKirkendall,
+    description: "CEO of Namecheap",
+    link: "https://twitter.com/NamecheapCEO"
   },
   {
     name: "Chris Moos",
@@ -50,44 +58,44 @@ export const SupportList = [
   },
   {
     name: "Jothan Frakes",
-    image: CoinPrince,
-    description: "",
-    link: ""
+    image: JothanFrakes,
+    description: "Founder of NamesCon",
+    link: "https://twitter.com/foap"
   },
   {
     name: "Joseph Poon",
-    image: CoinPrince,
-    description: "",
-    link: ""
+    image: JosephPoon,
+    description: "Creator of Handshake",
+    link: "https://twitter.com/jcp"
   },
   {
     name: "Kiba Gateaux",
-    image: CoinPrince,
-    description: "",
-    link: ""
+    image: KibaGateaux,
+    description: "Founder of XNHNS",
+    link: "https://twitter.com/KibaGateaux"
   },
   {
     name: "Jehan Chu",
-    image: CoinPrince,
-    description: "",
-    link: ""
+    image: JehanChu,
+    description: "Founder of dWeb Foundation",
+    link: "https://twitter.com/collectionist"
   },
   {
     name: "Mike Carson",
-    image: CoinPrince,
-    description: "",
-    link: ""
+    image: MikeCarson,
+    description: "Founder of Impervious",
+    link: "https://twitter.com/ca98am79"
   },
   {
     name: "Mike Michelini",
-    image: CoinPrince,
-    description: "",
-    link: ""
+    image: MikeMichelini,
+    description: "Founder of skyinclude/",
+    link: "https://twitter.com/michelini"
   },
   {
     name: "Tieshun Roquerre",
-    image: CoinPrince,
-    description: "",
-    link: ""
+    image: Tieshun,
+    description: "Founder of Namebase",
+    link: "https://twitter.com/TieshunR"
   }
 ];

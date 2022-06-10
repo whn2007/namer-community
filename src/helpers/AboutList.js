@@ -1,6 +1,5 @@
 import CoinPrince from "../assets/profilepics/coinprince.png"
 import BlockDomains from "../assets/profilepics/blockdomains.png"
-import Chjango from "../assets/profilepics/chjango.png"
 import Stefan from "../assets/profilepics/stefan.png"
 import Constanzo from "../assets/profilepics/constanzo.png"
 import RunDavidMC from "../assets/profilepics/rundavidmc.png"
@@ -9,6 +8,9 @@ import Strawberry from "../assets/profilepics/strawberry.png"
 import NathanWoodburn from "../assets/profilepics/nathanwoodburn.png"
 import MigsMachine from "../assets/profilepics/migsmachine.png"
 import MarkSmith from "../assets/profilepics/marksmith.png"
+import Supporter from "../assets/profilepics/121k.png"
+import Graham from "../assets/profilepics/graham.png"
+import Encrypted from "../assets/profilepics/encrypted.png"
 
 export const AboutList = [
   {
@@ -25,13 +27,13 @@ export const AboutList = [
   },
   {
     name: "graham/",
-    image: CoinPrince,
+    image: Graham,
     description: "Chief Vibes Officer",
     link: ""
   },
   {
     name: "encrypted/",
-    image: CoinPrince,
+    image: Encrypted,
     description: "Court Jester",
     link: ""
   },
@@ -93,11 +95,11 @@ export const AboutList = [
     name: "coinprince/",
     image: CoinPrince,
     description: "Intern",
-    link: ""
+    link: "https://twitter.com/whn2007"
   },
   {
     name: "121k/",
-    image: CoinPrince,
+    image: Supporter,
     description: "Support",
     link: ""
   }
