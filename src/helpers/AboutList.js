@@ -10,13 +10,14 @@ import MarkSmith from "../assets/profilepics/marksmith.png";
 import Supporter from "../assets/profilepics/121k.png";
 import Graham from "../assets/profilepics/graham.png";
 import Encrypted from "../assets/profilepics/encrypted.png";
+import SebastianRasor from "../assets/profilepics/sebastian.rasor.png"
 
 export const AboutList = [
   {
     name: "sebastian.rasor/",
-    image: CoinPrince,
+    image: SebastianRasor,
     description: "Handshake Applications Lead",
-    link: "",
+    link: "https://twitter.com/sebastianrasor",
   },
   {
     name: "constanzo/",
