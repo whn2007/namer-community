@@ -25,6 +25,7 @@
 }
 
 .aboutList{
+    margin-bottom: 10em;
     margin-left: 6em;
     width: 70vw;
     height: auto;
@@ -86,7 +87,6 @@
 }
 
 .supporters h1{
-    margin-top: 5em;
     color: #FFD800;
     font-size: 3rem;
     margin-bottom: 0.3em;

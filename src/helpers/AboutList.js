@@ -1,20 +1,19 @@
-import PlaceHolder from "../assets/placeholder.png"
+import CoinPrince from "../assets/profilepics/coinprince.png"
 import BlockDomains from "../assets/profilepics/blockdomains.png"
 import Chjango from "../assets/profilepics/chjango.png"
 import Stefan from "../assets/profilepics/stefan.png"
 import Constanzo from "../assets/profilepics/constanzo.png"
 import RunDavidMC from "../assets/profilepics/rundavidmc.png"
+import Sulu from "../assets/profilepics/sulu.png"
+import Strawberry from "../assets/profilepics/strawberry.png"
+import NathanWoodburn from "../assets/profilepics/nathanwoodburn.png"
+import MigsMachine from "../assets/profilepics/migsmachine.png"
+import MarkSmith from "../assets/profilepics/marksmith.png"
 
 export const AboutList = [
   {
-    name: "chjango/",
-    image: Chjango,
-    description: "Marketing Lead",
-    link: "https://twitter.com/chjango"
-  },
-  {
     name: "sebastian.rasor/",
-    image: PlaceHolder,
+    image: CoinPrince,
     description: "Handshake Applications Lead",
     link: ""
   },
@@ -26,21 +25,21 @@ export const AboutList = [
   },
   {
     name: "graham/",
-    image: PlaceHolder,
+    image: CoinPrince,
     description: "Chief Vibes Officer",
     link: ""
   },
   {
     name: "encrypted/",
-    image: PlaceHolder,
+    image: CoinPrince,
     description: "Court Jester",
     link: ""
   },
   {
     name: "sulu/",
-    image: PlaceHolder,
+    image: Sulu,
     description: "Court Jester",
-    link: ""
+    link: "https://twitter.com/TheWalllstreet"
   },
   {
     name:"0xstefan/",
@@ -50,19 +49,19 @@ export const AboutList = [
   },
   {
     name: "Nathan.Woodburn/",
-    image: PlaceHolder,
+    image: NathanWoodburn,
     description: "NamerCommunity Manager",
-    link: ""
+    link: "https://twitter.com/woodburn_nathan"
   },
   {
-    name: "Placeholder/",
-    image: PlaceHolder,
+    name: "🍓🍓🍓/",
+    image: Strawberry,
     description: "Chinese Community Lead",
-    link: ""
+    link: "https://twitter.com/AnnabelleCen"
   },
   {
     name: "encirca/",
-    image: PlaceHolder,
+    image: CoinPrince,
     description: "TM Infringement Lead",
     link: ""
   },
@@ -74,15 +73,15 @@ export const AboutList = [
   },
   {
     name: "marksmith/",
-    image: PlaceHolder,
+    image: MarkSmith,
     description: "Business Development Lead",
-    link: ""
+    link: "https://twitter.com/NamesakeMark"
   },
   {
     name: "migsmachine/",
-    image: PlaceHolder,
+    image: MigsMachine,
     description: "Merch Lead",
-    link: ""
+    link: "https://twitter.com/MigsMachine"
   },
   {
     name: "RunDavidMC/",
@@ -92,13 +91,13 @@ export const AboutList = [
   },
   {
     name: "coinprince/",
-    image: PlaceHolder,
+    image: CoinPrince,
     description: "Intern",
     link: ""
   },
   {
     name: "121k/",
-    image: PlaceHolder,
+    image: CoinPrince,
     description: "Support",
     link: ""
   }

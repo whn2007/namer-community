@@ -3,6 +3,7 @@ import Symbol1 from "../assets/symbol1.png";
 import Symbol2 from "../assets/symbol2.png";
 import Symbol3 from "../assets/symbol3.png";
 import HSymbol from "../assets/H.png";
+import { Link } from "react-router-dom";
 
 function Menu() {
   return (
@@ -117,7 +118,9 @@ function Menu() {
                 16 Directors working Full-Time on Handshake. A dedicated
                 community to give Handshake the love & attention it deserves.
               </p>
-              <button>Meet the Founders {">"}</button>
+              <Link to = "/about">
+                <button>Meet the Founders {">"}</button>
+              </Link>
             </div>
           </div>
         </div>
