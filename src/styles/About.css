@@ -25,13 +25,13 @@
 }
 
 .aboutList{
+    padding-left: 5em;
+    padding-right: 5em;
     margin-bottom: 10em;
-    margin-left: 6em;
-    width: 70vw;
+    width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
 }
 
 /*              Item Styling                        */
