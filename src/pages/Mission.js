@@ -33,7 +33,7 @@ function Menu() {
       <div className="container text-intro text-intro-simple text-intro-with-image mb-0">
         <div className="image swoosh">
           <div className="transform-left">
-            Sustainability, Coin Distribution, Name Reservations,...
+            Sustainability, Coin Distribution, Name Reservations...
           </div>
         </div>
         <div className="content">
@@ -83,7 +83,7 @@ function Menu() {
           <br />
           <br />
           <i>
-            Most of these individuals do NOT endorse any facet of Johnnys plan
+            Most of these individuals do NOT endorse any facet of johnnywu/ plan
             but trust him 100%.
           </i>
         </p>

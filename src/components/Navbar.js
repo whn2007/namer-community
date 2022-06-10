@@ -19,14 +19,12 @@ function Navbar() {
           <Link to="/"> Home </Link>
           <Link to="/mission"> Mission </Link>
           <Link to="/about"> About </Link>
-          <Link to="/"> Discord </Link>
         </div>
       </div>
       <div className="rightSide">
         <Link to="/"> Home </Link>
         <Link to="/mission"> Mission </Link>
         <Link to="/about"> About </Link>
-        <Link to="/"> Discord </Link>
         <button onClick={toggleNavbar}>
           <ReorderIcon />
         </button>

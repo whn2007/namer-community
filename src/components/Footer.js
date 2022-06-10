@@ -13,9 +13,6 @@ function Footer() {
           <TwitterIcon />
         </a>
         <a href="" target="_blank">
-          <FacebookIcon />
-        </a>
-        <a href="" target="_blank">
           <InstagramIcon />
         </a>
         <a href="" target="_blank">
