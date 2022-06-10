@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/namer-community/static/css/main.ecc6defb.css",
-    "main.js": "/namer-community/static/js/main.9b14fcc4.js",
+    "main.css": "/namer-community/static/css/main.5ccdccb2.css",
+    "main.js": "/namer-community/static/js/main.c35864af.js",
     "static/js/787.e403dcb9.chunk.js": "/namer-community/static/js/787.e403dcb9.chunk.js",
     "static/media/matthewzipkin.png": "/namer-community/static/media/matthewzipkin.69eeb78a06f58c977ea1.png",
     "static/media/bg-otherhalfmoon.png": "/namer-community/static/media/bg-otherhalfmoon.c85ec764162a888d7934.png",
@@ -33,12 +33,12 @@
     "static/media/nathanwoodburn.png": "/namer-community/static/media/nathanwoodburn.4f589511cf108f6ee858.png",
     "static/media/kyokan.png": "/namer-community/static/media/kyokan.243adea3a6b7d7fa1754.png",
     "index.html": "/namer-community/index.html",
-    "main.ecc6defb.css.map": "/namer-community/static/css/main.ecc6defb.css.map",
-    "main.9b14fcc4.js.map": "/namer-community/static/js/main.9b14fcc4.js.map",
+    "main.5ccdccb2.css.map": "/namer-community/static/css/main.5ccdccb2.css.map",
+    "main.c35864af.js.map": "/namer-community/static/js/main.c35864af.js.map",
     "787.e403dcb9.chunk.js.map": "/namer-community/static/js/787.e403dcb9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecc6defb.css",
-    "static/js/main.9b14fcc4.js"
+    "static/css/main.5ccdccb2.css",
+    "static/js/main.c35864af.js"
   ]
 }
