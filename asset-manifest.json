@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/namer-community/static/css/main.5ccdccb2.css",
-    "main.js": "/namer-community/static/js/main.c35864af.js",
+    "main.css": "/namer-community/static/css/main.e5c57178.css",
+    "main.js": "/namer-community/static/js/main.c4dc7f00.js",
     "static/js/787.e403dcb9.chunk.js": "/namer-community/static/js/787.e403dcb9.chunk.js",
     "static/media/matthewzipkin.png": "/namer-community/static/media/matthewzipkin.69eeb78a06f58c977ea1.png",
     "static/media/bg-otherhalfmoon.png": "/namer-community/static/media/bg-otherhalfmoon.c85ec764162a888d7934.png",
+    "static/media/sebastian.rasor.png": "/namer-community/static/media/sebastian.rasor.48c17901198969081779.png",
     "static/media/bg-halfmoon.jpeg": "/namer-community/static/media/bg-halfmoon.20077f100dd5726c1ed4.jpeg",
     "static/media/richardkirkendall.png": "/namer-community/static/media/richardkirkendall.d5f321d20b226e004572.png",
     "static/media/rundavidmc.png": "/namer-community/static/media/rundavidmc.48ae474be307be5531db.png",
@@ -33,12 +34,12 @@
     "static/media/nathanwoodburn.png": "/namer-community/static/media/nathanwoodburn.4f589511cf108f6ee858.png",
     "static/media/kyokan.png": "/namer-community/static/media/kyokan.243adea3a6b7d7fa1754.png",
     "index.html": "/namer-community/index.html",
-    "main.5ccdccb2.css.map": "/namer-community/static/css/main.5ccdccb2.css.map",
-    "main.c35864af.js.map": "/namer-community/static/js/main.c35864af.js.map",
+    "main.e5c57178.css.map": "/namer-community/static/css/main.e5c57178.css.map",
+    "main.c4dc7f00.js.map": "/namer-community/static/js/main.c4dc7f00.js.map",
     "787.e403dcb9.chunk.js.map": "/namer-community/static/js/787.e403dcb9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ccdccb2.css",
-    "static/js/main.c35864af.js"
+    "static/css/main.e5c57178.css",
+    "static/js/main.c4dc7f00.js"
   ]
 }
