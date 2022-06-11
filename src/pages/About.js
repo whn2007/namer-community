@@ -11,8 +11,7 @@ function About() {
       <div className="aboutHeader">
         <h1>THE FOUNDERS</h1>
         <h2>
-          Handshake is the world's most powerful <br />
-          peer-to-peer root naming system.
+          Meet the team.
         </h2>
       </div>
 
@@ -33,8 +32,7 @@ function About() {
       <div className="supporters">
         <h1>THE SUPPORTERS</h1>
         <h2>
-          Handshake is the world's most powerful <br />
-          peer-to-peer root naming system.
+          A big thanks to the people <br/> supporting this project.
         </h2>
       </div>
 
