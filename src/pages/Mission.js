@@ -51,8 +51,6 @@ function Menu() {
         <img src={HSymbol} className="icon" alt="icon" />
         <h2>People who currently trust johnnywu/ to lead</h2>
         <p>
-          <b>Matthew Zipkin</b>, no introduction needed
-          <br />
           <b>Andrew Lee (CEO, purse.io)</b>, creator of Handshake
           <br />
           <b>Richard Kirkendall</b>, CEO of Namecheap
